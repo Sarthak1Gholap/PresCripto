@@ -36,11 +36,6 @@ PresCripto is a **full-fledged hospital management system** designed to streamli
 - TensorFlow / PyTorch (for model training)
 - Retrieval-Augmented Generation (RAG) model for diagnosis assistance
 
-### **Deployment**:
-- AWS / Google Cloud (for hosting)
-- Docker (for containerization)
-- Nginx (for reverse proxy)
-
 ## **Installation & Setup**
 ### **1. Clone the Repository**
 ```sh
@@ -61,6 +56,12 @@ cd backend
 npm install
 ```
 
+#### **Admin**
+```sh
+cd admin
+npm install
+```
+
 ### **3. Start the Application**
 #### **Run Backend Server**
 ```sh
@@ -71,7 +72,13 @@ npm start
 #### **Run Frontend**
 ```sh
 cd frontend
-npm start
+npm run dev
+```
+
+#### **Run Admin**
+```sh
+cd admin
+npm run dev
 ```
 
 ## **Usage**
@@ -89,9 +96,5 @@ npm start
 ## **Contributing**
 We welcome contributions! Feel free to open issues or submit pull requests.
 
-## **License**
-This project is licensed under the MIT License.
 
-## **Contact**
-For queries or collaboration, reach out via email: [YourEmail@example.com]
 
